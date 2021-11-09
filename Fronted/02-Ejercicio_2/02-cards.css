@@ -44,7 +44,9 @@ table {
 
 /*Comienzo*/
 
-*{box-sizing: border-box;}
+*{
+	box-sizing: border-box;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
 body {background-color: #262626;}
 
@@ -55,6 +57,7 @@ body {background-color: #262626;}
 	max-width: 930px;
 	margin: auto;
 }
+
 
 /*Primera y segunda Tarjeta*/
 .contenedor{
@@ -71,22 +74,20 @@ body {background-color: #262626;}
 .caja2 h2{
 	padding: 10px 0px 0px 20px;
 	font-size: 35px;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-weight: 600;
 }
 .caja3 h3{
 	padding: 20px 20px 0px 20px;
 	font-size: 20px;
 	color: rgb(87, 87, 87);
-	font-family: 'Roboto Condensed', sans-serif;
 }
 
-/*Caja1*/
+/*Contenedor A*/
 .contenedorA{
 	float: left;	
 }
 
-/*Caja2*/
+/*Contenedor B*/
 /*Tercera tarjeta*/
 .contenedorB{
 	background-color: white;
@@ -96,6 +97,7 @@ body {background-color: #262626;}
 	border-radius: 20px;
 	float: left;
 }
+/*Caja 1*/
 .Caja1 img{
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
@@ -106,23 +108,24 @@ body {background-color: #262626;}
 	width: auto;
 	height: 300px;
 }
+/*Caja2 */
 .Caja2{
 	padding: 20px 0px 0px 20px;
 }
 .Caja2 label{	
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-size: 20px;
 	color:rgb(240, 93, 48);
 }
 .Caja2 h2{
 	font-size: 40px;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	margin: 5px 0px 0px 0px;
+	font-weight: 600;
 }
 .Caja2 p{
 	margin: 20px 0px 0px 0px;
 	font-size: 18px;
 }
+/*Caja3*/
 .Caja3{
 	display: flex;
 	align-items: center;
